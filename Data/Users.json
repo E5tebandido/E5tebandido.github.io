@@ -9,7 +9,8 @@
       "Categoria" : "Categoria",
       "Numero" : "Numero",
       "FechaNacimiento" : "Fecha de nacimiento"
-    }
+    },
+    "pk" : "Doc" 
   },
   "asistencias" : 
   {
@@ -19,7 +20,8 @@
       "NoAsistencias" : "Numero de asistencias",
       "NoAusencias" : "Numero de ausencias",
       "CodClase" : "Codigo de clase"
-    }
+    },
+    "pk" : "Doc"
   },
   "clases" : 
   {
@@ -29,15 +31,18 @@
       "Mes" : "Mes",
       "Año" : "Año",
       "NumClases" : "Numero de classes"
-    }
+    },
+    "pk" : "CodClase"
   },
   "cancha" : 
   {
     "columns" : 
     {
+      "CodCan" : "Codigo unico de uso",
       "Fecha" : "Fecha de uso",
       "Horas" : "Horas de uso"
-    }
+    },
+    "pk" : "CodCan"
   },
   "mensualidad" : 
   {
@@ -49,7 +54,8 @@
       "NoRecibo" : "Numero de recibo",
       "CodClase" : "Codigo de Clase",
       "EstPago" : "Estado de pago"
-    }
+    },
+    "pk" : "Doc"
   },
   "lfp" : 
   {
@@ -60,6 +66,7 @@
       "Federacion" : "Federacion",
       "Poliza" : "Poliza",
       "Año" : "Año"
-    }
+    },
+    "pk" : "Doc"
   }     
 }
