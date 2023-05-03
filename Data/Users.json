@@ -11,15 +11,55 @@
       "FechaNacimiento" : "Fecha de nacimiento"
     }
   },
-  "payment" : 
+  "asistencias" : 
   {
     "columns" : 
     {
       "Doc" : "Documento",
-      "LigayFederacion" : "Liga y Federacion",
-      "Estadopago" : "Estado de pago",
-      "Poliza" : "Poliza",
-      "NumeroMensualidades" : "Numero de mensualidades"
+      "NoAsistencias" : "Numero de asistencias",
+      "NoAusencias" : "Numero de ausencias",
+      "CodClase" : "Codigo de clase"
     }
-  }  
+  },
+  "clases" : 
+  {
+    "columns" : 
+    {
+      "CodClase" : "Codigo de clase",
+      "Mes" : "Mes",
+      "Año" : "Año",
+      "NumClases" : "Numero de classes"
+    }
+  },
+  "cancha" : 
+  {
+    "columns" : 
+    {
+      "Fecha" : "Fecha de uso",
+      "Horas" : "Horas de uso"
+    }
+  },
+  "mensualidad" : 
+  {
+    "columns" : 
+    {
+      "Doc" : "Documento",
+      "Precio" : "Precio",
+      "Total" : "Total a pagar",
+      "NoRecibo" : "Numero de recibo",
+      "CodClase" : "Codigo de Clase",
+      "EstPago" : "Estado de pago"
+    }
+  },
+  "lfp" : 
+  {
+    "columns" : 
+    {
+      "Doc" : "Documento",
+      "Liga" : "Liga",
+      "Federacion" : "Federacion",
+      "Poliza" : "Poliza",
+      "Año" : "Año"
+    }
+  }     
 }
